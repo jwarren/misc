@@ -1,0 +1,2 @@
+#!/bin/sh
+git --work-tree=/var/www/website_folder --git-dir=/var/repo/website.git checkout -f master

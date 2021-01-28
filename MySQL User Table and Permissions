@@ -1,0 +1,16 @@
+CREATE DATABASE wordpress;
+
+CREATE USER 'wordpress'@'localhost' IDENTIFIED BY '2PkFqCBAR';
+
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'localhost';
+
+
+CREATE DATABASE drupal;
+
+CREATE USER 'drupal'@'localhost' IDENTIFIED BY 'kTpkM6LiX';
+
+GRANT ALL PRIVILEGES ON drupal.* TO 'drupal'@'localhost';
+
+Permissions for files directory:
+chown -R www-data files
+chmod -R 0770 files 
