@@ -1,0 +1,1 @@
+git remote add misc-files ssh://ubuntu@ec2-54-191-137-236.us-west-2.compute.amazonaws.com/var/repo/website.git
